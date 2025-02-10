@@ -1,5 +1,5 @@
-import Logo from "./components/Logo";
-import Navigation from "./components/Navigation";
+import Logo from "@/app/_components/Logo";
+import Navigation from "@/app/_components/Navigation";
 
 export const metadata = {
   title: "The Wild Oasis",
@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
           <Navigation />
         </header>
         <main>{children}</main>
+
         <footer>Copyright by the loyrnyCode</footer>
       </body>
     </html>
