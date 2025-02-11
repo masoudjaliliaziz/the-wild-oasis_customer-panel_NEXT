@@ -1,5 +1,7 @@
 import ReservationCard from "@/app/_components/ReservationCard";
-
+export const metadata={
+  title:"reservations"
+  }
 export default function Page() {
   // CHANGE
   const bookings = [];
